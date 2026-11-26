@@ -1,0 +1,375 @@
+experiment cpus [4, 5, 6, 7], generator cpus [0, 1, 2, 3]; 186 runs, about 4.4 h
+[1/186] 21:46:56 combo-7b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.2677  tok_per_s=6.561  mon_cpu_pct=70.677  swap_out_pages=0
+[2/186] 21:48:12 combo-7b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1494  tok_per_s=3.73  mon_cpu_pct=70.475  swap_out_pages=0
+[3/186] 21:49:28 ofat-7b-nice=default-weight=equal-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.8272  tok_per_s=3.33  mon_cpu_pct=70.369  swap_out_pages=0
+[4/186] 21:50:45 ofat-7b-nice=default-weight=shared-pin=shared-rb=small__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=4.4517  tok_per_s=3.164  mon_cpu_pct=70.25  swap_out_pages=0
+[5/186] 21:52:03 ofat-7b-nice=default-weight=mon_favored-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3013  tok_per_s=3.131  mon_cpu_pct=70.435  swap_out_pages=0
+[6/186] 21:53:20 ofat-7b-nice=default-weight=shared-pin=partial-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.4142  tok_per_s=3.78  mon_cpu_pct=71.168  swap_out_pages=0
+[7/186] 21:54:40 base-7b-llm_only__r0
+   tok_per_s=4.533  swap_out_pages=0
+[8/186] 21:55:53 ofat-7b-nice=default-weight=llm_favored-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=29.894  tok_per_s=3.047  mon_cpu_pct=70.164  swap_out_pages=0
+[9/186] 21:57:11 ofat-7b-nice=default-weight=shared-pin=shared-rb=large__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.1673  tok_per_s=3.014  mon_cpu_pct=70.155  swap_out_pages=0
+[10/186] 21:58:29 ofat-7b-nice=default-weight=shared-pin=reserved-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.394  tok_per_s=3.73  mon_cpu_pct=71.063  swap_out_pages=0
+[11/186] 21:59:48 base-7b-both_default__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.0652  tok_per_s=2.997  mon_cpu_pct=70.189  swap_out_pages=0
+[12/186] 22:01:06 ofat-7b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1996  tok_per_s=2.981  mon_cpu_pct=70.431  swap_out_pages=0
+[13/186] 22:02:24 combo-7b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.2928  tok_per_s=3.663  mon_cpu_pct=70.774  swap_out_pages=0
+[14/186] 22:03:43 ofat-7b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=45.9357  tok_per_s=3.014  mon_cpu_pct=70.159  swap_out_pages=0
+[15/186] 22:05:01 combo-7b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.146  tok_per_s=2.947  mon_cpu_pct=70.444  swap_out_pages=0
+[16/186] 22:06:19 ofat-7b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3278  tok_per_s=2.931  mon_cpu_pct=70.416  swap_out_pages=0
+[17/186] 22:07:38 ofat-7b-nice=default-weight=shared-pin=reserved-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.388  tok_per_s=3.663  mon_cpu_pct=71.048  swap_out_pages=0
+[18/186] 22:08:58 base-7b-llm_only__r2
+   tok_per_s=4.283  swap_out_pages=0
+[19/186] 22:10:11 combo-7b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3048  tok_per_s=3.613  mon_cpu_pct=70.78  swap_out_pages=0
+[20/186] 22:11:31 combo-7b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3544  tok_per_s=3.63  mon_cpu_pct=71.09  swap_out_pages=0
+[21/186] 22:12:50 ofat-7b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=40.0173  tok_per_s=3.014  mon_cpu_pct=70.179  swap_out_pages=0
+[22/186] 22:14:07 ofat-7b-nice=default-weight=mon_favored-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3114  tok_per_s=2.93  mon_cpu_pct=70.411  swap_out_pages=0
+[23/186] 22:15:26 ofat-7b-nice=default-weight=shared-pin=reserved-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3433  tok_per_s=3.613  mon_cpu_pct=71.009  swap_out_pages=0
+[24/186] 22:16:46 ofat-7b-nice=default-weight=llm_favored-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=38.8961  tok_per_s=2.981  mon_cpu_pct=70.146  swap_out_pages=0
+[25/186] 22:18:03 ofat-7b-nice=default-weight=shared-pin=shared-rb=small__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.2258  tok_per_s=2.914  mon_cpu_pct=70.167  swap_out_pages=0
+[26/186] 22:19:22 ofat-7b-nice=default-weight=shared-pin=shared-rb=small__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.4064  tok_per_s=2.881  mon_cpu_pct=70.157  swap_out_pages=0
+[27/186] 22:20:40 combo-7b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.321  tok_per_s=3.53  mon_cpu_pct=70.885  swap_out_pages=0
+[28/186] 22:22:00 ofat-7b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=49.2749  tok_per_s=2.931  mon_cpu_pct=70.129  swap_out_pages=0
+[29/186] 22:23:19 combo-7b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.321  tok_per_s=2.88  mon_cpu_pct=70.442  swap_out_pages=0
+[30/186] 22:24:38 combo-7b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1942  tok_per_s=2.947  mon_cpu_pct=70.453  swap_out_pages=0
+[31/186] 22:25:56 combo-7b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3292  tok_per_s=3.597  mon_cpu_pct=70.98  swap_out_pages=0
+[32/186] 22:27:15 combo-7b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.2954  tok_per_s=3.646  mon_cpu_pct=70.866  swap_out_pages=0
+[33/186] 22:28:34 ofat-7b-nice=default-weight=shared-pin=shared-rb=large__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.1186  tok_per_s=3.014  mon_cpu_pct=70.171  swap_out_pages=0
+[34/186] 22:29:53 combo-7b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3027  tok_per_s=2.964  mon_cpu_pct=70.433  swap_out_pages=0
+[35/186] 22:31:10 ofat-7b-nice=default-weight=shared-pin=shared-rb=small__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.2078  tok_per_s=2.947  mon_cpu_pct=70.18  swap_out_pages=0
+[36/186] 22:32:28 ofat-7b-nice=default-weight=llm_favored-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=36.7312  tok_per_s=2.997  mon_cpu_pct=70.149  swap_out_pages=0
+[37/186] 22:33:46 ofat-7b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1507  tok_per_s=2.931  mon_cpu_pct=70.43  swap_out_pages=0
+[38/186] 22:35:04 combo-7b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3649  tok_per_s=3.647  mon_cpu_pct=71.058  swap_out_pages=0
+[39/186] 22:36:24 ofat-7b-nice=default-weight=llm_favored-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=29.5192  tok_per_s=3.014  mon_cpu_pct=70.179  swap_out_pages=0
+[40/186] 22:37:41 base-7b-both_default__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.3097  tok_per_s=2.964  mon_cpu_pct=70.166  swap_out_pages=0
+[41/186] 22:38:59 ofat-7b-nice=default-weight=shared-pin=partial-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.4296  tok_per_s=3.58  mon_cpu_pct=71.676  swap_out_pages=0
+[42/186] 22:40:19 base-7b-llm_only__r4
+   tok_per_s=4.267  swap_out_pages=0
+[43/186] 22:41:31 ofat-7b-nice=default-weight=llm_favored-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=36.7821  tok_per_s=2.914  mon_cpu_pct=70.135  swap_out_pages=0
+[44/186] 22:42:51 ofat-7b-nice=default-weight=shared-pin=reserved-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3322  tok_per_s=3.58  mon_cpu_pct=71.026  swap_out_pages=0
+[45/186] 22:44:11 combo-7b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3726  tok_per_s=3.647  mon_cpu_pct=71.299  swap_out_pages=0
+[46/186] 22:45:31 ofat-7b-nice=default-weight=shared-pin=reserved-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3607  tok_per_s=3.68  mon_cpu_pct=71.06  swap_out_pages=0
+[47/186] 22:46:50 ofat-7b-nice=default-weight=shared-pin=partial-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3192  tok_per_s=3.613  mon_cpu_pct=70.774  swap_out_pages=0
+[48/186] 22:48:09 ofat-7b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1747  tok_per_s=2.931  mon_cpu_pct=70.421  swap_out_pages=0
+[49/186] 22:49:27 ofat-7b-nice=default-weight=shared-pin=shared-rb=small__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.2721  tok_per_s=2.964  mon_cpu_pct=70.176  swap_out_pages=0
+[50/186] 22:50:46 base-7b-llm_only__r5
+   tok_per_s=4.333  swap_out_pages=0
+[51/186] 22:51:59 ofat-7b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3079  tok_per_s=2.947  mon_cpu_pct=70.426  swap_out_pages=0
+[52/186] 22:53:17 ofat-7b-nice=default-weight=shared-pin=partial-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.4073  tok_per_s=3.68  mon_cpu_pct=71.07  swap_out_pages=0
+[53/186] 22:54:37 ofat-7b-nice=default-weight=equal-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=4.4074  tok_per_s=2.997  mon_cpu_pct=70.334  swap_out_pages=0
+[54/186] 22:55:54 ofat-7b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=40.528  tok_per_s=3.031  mon_cpu_pct=70.143  swap_out_pages=0
+[55/186] 22:57:12 combo-7b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3197  tok_per_s=3.663  mon_cpu_pct=70.854  swap_out_pages=0
+[56/186] 22:58:32 combo-7b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3555  tok_per_s=3.68  mon_cpu_pct=71.018  swap_out_pages=0
+[57/186] 22:59:51 ofat-7b-nice=default-weight=shared-pin=shared-rb=large__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.1016  tok_per_s=3.03  mon_cpu_pct=70.159  swap_out_pages=0
+[58/186] 23:01:09 base-7b-both_default__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.108  tok_per_s=3.014  mon_cpu_pct=70.19  swap_out_pages=0
+[59/186] 23:02:28 ofat-7b-nice=default-weight=llm_favored-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=32.3991  tok_per_s=3.064  mon_cpu_pct=70.147  swap_out_pages=0
+[60/186] 23:03:45 ofat-7b-nice=default-weight=mon_favored-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.286  tok_per_s=3.014  mon_cpu_pct=70.442  swap_out_pages=0
+[61/186] 23:05:04 base-7b-llm_only__r3
+   tok_per_s=4.383  swap_out_pages=0
+[62/186] 23:06:17 ofat-7b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=42.2831  tok_per_s=2.997  mon_cpu_pct=70.159  swap_out_pages=0
+[63/186] 23:07:35 ofat-7b-nice=default-weight=shared-pin=partial-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3945  tok_per_s=3.58  mon_cpu_pct=71.285  swap_out_pages=0
+[64/186] 23:08:55 ofat-7b-nice=default-weight=shared-pin=shared-rb=large__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.1608  tok_per_s=2.947  mon_cpu_pct=70.192  swap_out_pages=0
+[65/186] 23:10:13 ofat-7b-nice=default-weight=equal-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=4.2516  tok_per_s=2.931  mon_cpu_pct=70.318  swap_out_pages=0
+[66/186] 23:11:32 ofat-7b-nice=default-weight=shared-pin=shared-rb=large__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.2338  tok_per_s=2.931  mon_cpu_pct=70.182  swap_out_pages=0
+[67/186] 23:12:51 ofat-7b-nice=default-weight=equal-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=4.4396  tok_per_s=2.947  mon_cpu_pct=70.328  swap_out_pages=0
+[68/186] 23:14:10 base-7b-both_default__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.4466  tok_per_s=2.914  mon_cpu_pct=70.119  swap_out_pages=0
+[69/186] 23:15:28 base-7b-both_default__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.1953  tok_per_s=2.897  mon_cpu_pct=70.179  swap_out_pages=0
+[70/186] 23:16:46 combo-7b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3401  tok_per_s=3.597  mon_cpu_pct=71.019  swap_out_pages=0
+[71/186] 23:18:06 ofat-7b-nice=default-weight=shared-pin=shared-rb=small__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.0987  tok_per_s=2.98  mon_cpu_pct=70.195  swap_out_pages=0
+[72/186] 23:19:24 ofat-7b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3147  tok_per_s=2.947  mon_cpu_pct=70.416  swap_out_pages=0
+[73/186] 23:20:42 base-7b-both_default__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.1161  tok_per_s=2.947  mon_cpu_pct=70.142  swap_out_pages=0
+[74/186] 23:22:01 ofat-7b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=34.8089  tok_per_s=3.014  mon_cpu_pct=70.152  swap_out_pages=0
+[75/186] 23:23:18 ofat-7b-nice=default-weight=equal-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=4.3503  tok_per_s=2.947  mon_cpu_pct=70.318  swap_out_pages=0
+[76/186] 23:24:36 ofat-7b-nice=default-weight=mon_favored-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3227  tok_per_s=2.931  mon_cpu_pct=70.455  swap_out_pages=0
+[77/186] 23:25:54 ofat-7b-nice=default-weight=shared-pin=reserved-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3383  tok_per_s=3.663  mon_cpu_pct=71.041  swap_out_pages=0
+[78/186] 23:27:14 ofat-7b-nice=default-weight=equal-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=4.2252  tok_per_s=2.98  mon_cpu_pct=70.323  swap_out_pages=0
+[79/186] 23:28:32 base-7b-llm_only__r1
+   tok_per_s=4.267  swap_out_pages=0
+[80/186] 23:29:45 ofat-7b-nice=default-weight=shared-pin=partial-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3121  tok_per_s=3.563  mon_cpu_pct=70.752  swap_out_pages=0
+[81/186] 23:31:05 combo-7b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1509  tok_per_s=2.997  mon_cpu_pct=70.441  swap_out_pages=0
+[82/186] 23:32:23 ofat-7b-nice=default-weight=mon_favored-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.2081  tok_per_s=2.964  mon_cpu_pct=70.468  swap_out_pages=0
+[83/186] 23:33:41 ofat-7b-nice=default-weight=shared-pin=shared-rb=large__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=5.3018  tok_per_s=2.964  mon_cpu_pct=70.157  swap_out_pages=0
+[84/186] 23:34:59 ofat-7b-nice=default-weight=mon_favored-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.2587  tok_per_s=2.947  mon_cpu_pct=70.44  swap_out_pages=0
+[85/186] 23:36:17 ofat-3b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0884  tok_per_s=5.528  mon_cpu_pct=70.498  swap_out_pages=256
+   WARNING: the system swapped during this run
+[86/186] 23:37:30 combo-3b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0816  tok_per_s=5.478  mon_cpu_pct=70.548  swap_out_pages=0
+[87/186] 23:38:42 base-3b-llm_only__r0
+   tok_per_s=10.867  swap_out_pages=0
+[88/186] 23:39:48 combo-3b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3193  tok_per_s=9.391  mon_cpu_pct=70.908  swap_out_pages=0
+[89/186] 23:41:01 combo-3b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3974  tok_per_s=9.441  mon_cpu_pct=71.454  swap_out_pages=0
+[90/186] 23:42:14 ofat-3b-nice=default-weight=shared-pin=partial-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3707  tok_per_s=9.491  mon_cpu_pct=71.229  swap_out_pages=0
+[91/186] 23:43:25 ofat-3b-nice=default-weight=shared-pin=reserved-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.2958  tok_per_s=9.506  mon_cpu_pct=70.851  swap_out_pages=0
+[92/186] 23:44:38 ofat-3b-nice=default-weight=shared-pin=shared-rb=large__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.6776  tok_per_s=5.512  mon_cpu_pct=70.358  swap_out_pages=0
+[93/186] 23:45:50 ofat-3b-nice=default-weight=mon_favored-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0441  tok_per_s=5.462  mon_cpu_pct=70.54  swap_out_pages=0
+[94/186] 23:47:02 ofat-3b-nice=default-weight=shared-pin=shared-rb=small__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.5901  tok_per_s=5.445  mon_cpu_pct=70.388  swap_out_pages=0
+[95/186] 23:48:15 ofat-3b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=12.2519  tok_per_s=5.462  mon_cpu_pct=70.387  swap_out_pages=0
+[96/186] 23:49:26 base-3b-both_default__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.6141  tok_per_s=5.412  mon_cpu_pct=70.386  swap_out_pages=0
+[97/186] 23:50:38 ofat-3b-nice=default-weight=equal-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3994  tok_per_s=5.378  mon_cpu_pct=70.468  swap_out_pages=0
+[98/186] 23:51:50 ofat-3b-nice=default-weight=llm_favored-pin=shared-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=12.4099  tok_per_s=5.412  mon_cpu_pct=70.374  swap_out_pages=0
+[99/186] 23:53:01 base-3b-llm_only__r2
+   tok_per_s=10.783  swap_out_pages=0
+[100/186] 23:54:08 ofat-3b-nice=default-weight=shared-pin=shared-rb=large__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.5643  tok_per_s=5.379  mon_cpu_pct=70.416  swap_out_pages=0
+[101/186] 23:55:19 ofat-3b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=12.2388  tok_per_s=5.345  mon_cpu_pct=70.394  swap_out_pages=0
+[102/186] 23:56:32 ofat-3b-nice=default-weight=shared-pin=reserved-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.291  tok_per_s=9.491  mon_cpu_pct=70.848  swap_out_pages=0
+[103/186] 23:57:43 ofat-3b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0572  tok_per_s=5.395  mon_cpu_pct=70.516  swap_out_pages=0
+[104/186] 23:58:56 ofat-3b-nice=default-weight=shared-pin=partial-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.4033  tok_per_s=9.474  mon_cpu_pct=71.821  swap_out_pages=0
+[105/186] 00:00:07 combo-3b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3936  tok_per_s=9.392  mon_cpu_pct=71.576  swap_out_pages=0
+[106/186] 00:01:19 ofat-3b-nice=default-weight=shared-pin=partial-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3123  tok_per_s=9.458  mon_cpu_pct=70.931  swap_out_pages=0
+[107/186] 00:02:31 combo-3b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3034  tok_per_s=9.408  mon_cpu_pct=70.912  swap_out_pages=0
+[108/186] 00:03:43 ofat-3b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=13.2607  tok_per_s=5.345  mon_cpu_pct=70.396  swap_out_pages=0
+[109/186] 00:04:54 combo-3b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3868  tok_per_s=9.208  mon_cpu_pct=71.34  swap_out_pages=0
+[110/186] 00:06:07 ofat-3b-nice=default-weight=llm_favored-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=13.3906  tok_per_s=5.345  mon_cpu_pct=70.362  swap_out_pages=0
+[111/186] 00:07:18 ofat-3b-nice=default-weight=mon_favored-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0539  tok_per_s=5.278  mon_cpu_pct=70.544  swap_out_pages=0
+[112/186] 00:08:31 base-3b-llm_only__r3
+   tok_per_s=10.583  swap_out_pages=0
+[113/186] 00:09:38 ofat-3b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0513  tok_per_s=5.279  mon_cpu_pct=70.528  swap_out_pages=0
+[114/186] 00:10:50 ofat-3b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1335  tok_per_s=5.429  mon_cpu_pct=70.516  swap_out_pages=0
+[115/186] 00:12:03 ofat-3b-nice=default-weight=shared-pin=shared-rb=small__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.5825  tok_per_s=5.262  mon_cpu_pct=70.409  swap_out_pages=0
+[116/186] 00:13:15 base-3b-both_default__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.5761  tok_per_s=5.312  mon_cpu_pct=70.428  swap_out_pages=0
+[117/186] 00:14:26 ofat-3b-nice=default-weight=equal-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.534  tok_per_s=5.345  mon_cpu_pct=70.44  swap_out_pages=0
+[118/186] 00:15:39 combo-3b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3182  tok_per_s=9.524  mon_cpu_pct=70.943  swap_out_pages=0
+[119/186] 00:16:51 ofat-3b-nice=default-weight=equal-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.4291  tok_per_s=5.495  mon_cpu_pct=70.457  swap_out_pages=0
+[120/186] 00:18:02 combo-3b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0271  tok_per_s=5.362  mon_cpu_pct=70.519  swap_out_pages=0
+[121/186] 00:19:14 ofat-3b-nice=default-weight=mon_favored-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1101  tok_per_s=5.529  mon_cpu_pct=70.524  swap_out_pages=0
+[122/186] 00:20:26 combo-3b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0979  tok_per_s=5.428  mon_cpu_pct=70.516  swap_out_pages=0
+[123/186] 00:21:38 ofat-3b-nice=default-weight=shared-pin=shared-rb=small__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.4514  tok_per_s=5.495  mon_cpu_pct=70.408  swap_out_pages=0
+[124/186] 00:22:49 ofat-3b-nice=default-weight=shared-pin=reserved-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3829  tok_per_s=9.607  mon_cpu_pct=71.474  swap_out_pages=0
+[125/186] 00:24:02 combo-3b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.2959  tok_per_s=9.59  mon_cpu_pct=70.878  swap_out_pages=0
+[126/186] 00:25:15 combo-3b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3048  tok_per_s=9.59  mon_cpu_pct=70.903  swap_out_pages=0
+[127/186] 00:26:26 ofat-3b-nice=default-weight=equal-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3764  tok_per_s=5.495  mon_cpu_pct=70.478  swap_out_pages=0
+[128/186] 00:27:38 ofat-3b-nice=default-weight=shared-pin=partial-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.4087  tok_per_s=9.474  mon_cpu_pct=71.894  swap_out_pages=0
+[129/186] 00:28:50 ofat-3b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0147  tok_per_s=5.412  mon_cpu_pct=70.537  swap_out_pages=0
+[130/186] 00:30:02 ofat-3b-nice=default-weight=shared-pin=shared-rb=large__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.5963  tok_per_s=5.462  mon_cpu_pct=70.373  swap_out_pages=0
+[131/186] 00:31:14 ofat-3b-nice=default-weight=shared-pin=shared-rb=small__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.7131  tok_per_s=5.429  mon_cpu_pct=70.369  swap_out_pages=0
+[132/186] 00:32:26 ofat-3b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=12.7893  tok_per_s=5.345  mon_cpu_pct=70.386  swap_out_pages=0
+[133/186] 00:33:37 ofat-3b-nice=default-weight=shared-pin=reserved-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.2869  tok_per_s=9.424  mon_cpu_pct=70.855  swap_out_pages=0
+[134/186] 00:34:51 ofat-3b-nice=default-weight=equal-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.452  tok_per_s=5.329  mon_cpu_pct=70.422  swap_out_pages=0
+[135/186] 00:36:03 combo-3b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3095  tok_per_s=9.374  mon_cpu_pct=70.892  swap_out_pages=0
+[136/186] 00:37:15 ofat-3b-nice=default-weight=llm_favored-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=10.4837  tok_per_s=5.395  mon_cpu_pct=70.356  swap_out_pages=0
+[137/186] 00:38:27 combo-3b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0714  tok_per_s=5.278  mon_cpu_pct=70.528  swap_out_pages=0
+[138/186] 00:39:39 base-3b-llm_only__r1
+   tok_per_s=10.467  swap_out_pages=0
+[139/186] 00:40:46 ofat-3b-nice=default-weight=shared-pin=partial-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3092  tok_per_s=9.308  mon_cpu_pct=70.903  swap_out_pages=0
+[140/186] 00:41:58 ofat-3b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=12.5109  tok_per_s=5.245  mon_cpu_pct=70.447  swap_out_pages=0
+[141/186] 00:43:11 combo-3b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.2982  tok_per_s=9.374  mon_cpu_pct=70.942  swap_out_pages=0
+[142/186] 00:44:23 ofat-3b-nice=default-weight=mon_favored-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1044  tok_per_s=5.345  mon_cpu_pct=70.579  swap_out_pages=0
+[143/186] 00:45:35 combo-3b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1225  tok_per_s=5.345  mon_cpu_pct=70.558  swap_out_pages=0
+[144/186] 00:46:47 combo-3b-c2-nice=mon_favored-weight=shared-pin=partial-rb=large__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.295  tok_per_s=9.29  mon_cpu_pct=70.906  swap_out_pages=0
+[145/186] 00:47:59 ofat-3b-nice=default-weight=equal-pin=shared-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.4811  tok_per_s=5.345  mon_cpu_pct=70.453  swap_out_pages=0
+[146/186] 00:49:10 base-3b-llm_only__r5
+   tok_per_s=10.517  swap_out_pages=0
+[147/186] 00:50:17 ofat-3b-nice=default-weight=shared-pin=partial-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.2983  tok_per_s=9.341  mon_cpu_pct=70.902  swap_out_pages=0
+[148/186] 00:51:30 ofat-3b-nice=default-weight=mon_favored-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1371  tok_per_s=5.478  mon_cpu_pct=70.533  swap_out_pages=0
+[149/186] 00:52:42 ofat-3b-nice=default-weight=shared-pin=reserved-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3393  tok_per_s=9.591  mon_cpu_pct=71.081  swap_out_pages=0
+[150/186] 00:53:55 ofat-3b-nice=default-weight=shared-pin=shared-rb=large__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.6154  tok_per_s=5.479  mon_cpu_pct=70.385  swap_out_pages=0
+[151/186] 00:55:06 ofat-3b-nice=mon_favored-weight=shared-pin=shared-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0624  tok_per_s=5.428  mon_cpu_pct=70.533  swap_out_pages=0
+[152/186] 00:56:19 ofat-3b-nice=default-weight=shared-pin=reserved-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.3805  tok_per_s=9.508  mon_cpu_pct=71.659  swap_out_pages=0
+[153/186] 00:57:31 base-3b-both_default__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.4617  tok_per_s=5.295  mon_cpu_pct=70.456  swap_out_pages=0
+[154/186] 00:58:43 base-3b-both_default__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.5678  tok_per_s=5.361  mon_cpu_pct=70.398  swap_out_pages=0
+[155/186] 00:59:55 combo-3b-c1-nice=default-weight=mon_favored-pin=shared-rb=large__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0784  tok_per_s=5.329  mon_cpu_pct=70.55  swap_out_pages=0
+[156/186] 01:01:08 base-3b-llm_only__r4
+   tok_per_s=10.683  swap_out_pages=0
+[157/186] 01:02:15 ofat-3b-nice=default-weight=shared-pin=shared-rb=small__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.5218  tok_per_s=5.279  mon_cpu_pct=70.416  swap_out_pages=0
+[158/186] 01:03:26 base-3b-both_default__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.481  tok_per_s=5.279  mon_cpu_pct=70.418  swap_out_pages=0
+[159/186] 01:04:39 combo-3b-c3-nice=default-weight=mon_favored-pin=partial-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.4146  tok_per_s=9.274  mon_cpu_pct=71.362  swap_out_pages=0
+[160/186] 01:05:51 ofat-3b-nice=default-weight=llm_favored-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=10.6414  tok_per_s=5.346  mon_cpu_pct=70.383  swap_out_pages=0
+[161/186] 01:07:04 base-3b-both_default__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.547  tok_per_s=5.445  mon_cpu_pct=70.407  swap_out_pages=0
+[162/186] 01:08:15 ofat-3b-nice=default-weight=mon_favored-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0771  tok_per_s=5.412  mon_cpu_pct=70.549  swap_out_pages=0
+[163/186] 01:09:28 ofat-3b-nice=default-weight=shared-pin=shared-rb=small__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.7361  tok_per_s=5.462  mon_cpu_pct=70.363  swap_out_pages=0
+[164/186] 01:10:39 ofat-3b-nice=default-weight=shared-pin=shared-rb=large__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.6391  tok_per_s=5.345  mon_cpu_pct=70.407  swap_out_pages=0
+[165/186] 01:11:52 ofat-3b-nice=default-weight=shared-pin=shared-rb=large__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.6335  tok_per_s=5.345  mon_cpu_pct=70.397  swap_out_pages=0
+[166/186] 01:13:04 ofat-3b-nice=default-weight=llm_favored-pin=shared-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=9.6542  tok_per_s=5.312  mon_cpu_pct=70.406  swap_out_pages=0
+[167/186] 01:14:15 ofat-3b-nice=default-weight=llm_favored-pin=shared-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=11.8973  tok_per_s=5.312  mon_cpu_pct=70.373  swap_out_pages=0
+[168/186] 01:15:28 ofat-3b-nice=llm_favored-weight=shared-pin=shared-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=9.6369  tok_per_s=5.395  mon_cpu_pct=70.365  swap_out_pages=0
+[169/186] 01:16:39 base-none-monitor_only__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.053  mon_cpu_pct=74.05  swap_out_pages=0
+[170/186] 01:17:45 base-none-monitor_only__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.0415  mon_cpu_pct=73.975  swap_out_pages=0
+[171/186] 01:18:50 base-none-monitor_only__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.0533  mon_cpu_pct=74.033  swap_out_pages=0
+[172/186] 01:19:55 base-none-monitor_only__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.0533  mon_cpu_pct=74.032  swap_out_pages=0
+[173/186] 01:21:00 base-none-monitor_only__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.0527  mon_cpu_pct=74.041  swap_out_pages=0
+[174/186] 01:22:06 base-none-monitor_only__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=0.0523  mon_cpu_pct=74.02  swap_out_pages=0
+[175/186] 01:23:11 base-0.5b-both_default__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.3062  tok_per_s=25.767  mon_cpu_pct=70.518  swap_out_pages=0
+[176/186] 01:24:21 base-0.5b-llm_only__r0
+   tok_per_s=55.1  swap_out_pages=0
+[177/186] 01:25:25 base-0.5b-llm_only__r1
+   tok_per_s=48.167  swap_out_pages=0
+[178/186] 01:26:30 base-0.5b-both_default__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1706  tok_per_s=16.819  mon_cpu_pct=70.412  swap_out_pages=0
+[179/186] 01:27:39 base-0.5b-both_default__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0759  tok_per_s=16.869  mon_cpu_pct=70.406  swap_out_pages=0
+[180/186] 01:28:49 base-0.5b-llm_only__r2
+   tok_per_s=45.767  swap_out_pages=0
+[181/186] 01:29:54 base-0.5b-llm_only__r5
+   tok_per_s=45.05  swap_out_pages=0
+[182/186] 01:30:58 base-0.5b-llm_only__r4
+   tok_per_s=44.5  swap_out_pages=0
+[183/186] 01:32:02 base-0.5b-both_default__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1767  tok_per_s=15.687  mon_cpu_pct=70.398  swap_out_pages=0
+[184/186] 01:33:13 base-0.5b-both_default__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.1306  tok_per_s=15.819  mon_cpu_pct=70.395  swap_out_pages=0
+[185/186] 01:34:23 base-0.5b-llm_only__r3
+   tok_per_s=44.417  swap_out_pages=0
+[186/186] 01:35:27 base-0.5b-both_default__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  lat_p95_ms=3.0566  tok_per_s=15.07  mon_cpu_pct=70.372  swap_out_pages=0
+done. results in /home/abdul/os-llm-ebpf/results/runs.csv

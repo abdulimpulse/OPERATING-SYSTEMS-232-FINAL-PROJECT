@@ -1,0 +1,98 @@
+experiment cpus [4, 5, 6, 7], generator cpus [0, 1, 2, 3]; 48 runs, about 1.1 h
+[1/48] 02:20:38 loss-7b-starved-nice=llm_favored-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=8.5731  tok_per_s=5.313  mon_cpu_pct=70.439  swap_out_pages=0
+[2/48] 02:21:53 loss-7b-overloaded-work600-rb=large__r0
+   gen_rate_achieved=2000.0  loss_pct=9.3608  kernel_dropped=11233  first_loss_s=28.47  lat_p95_ms=6144.7654  tok_per_s=3.547  mon_cpu_pct=93.951  swap_out_pages=0
+[3/48] 02:23:09 loss-7b-overloaded-work600-pin=reserved__r0
+   gen_rate_achieved=2000.0  loss_pct=15.6775  kernel_dropped=18814  first_loss_s=3.762  lat_p95_ms=755.9492  tok_per_s=4.313  mon_cpu_pct=88.624  swap_out_pages=0
+[4/48] 02:24:27 loss-7b-starved-nice=llm_favored-pin=reserved__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=0.3141  tok_per_s=4.096  mon_cpu_pct=71.346  swap_out_pages=0
+[5/48] 02:25:44 loss-7b-overloaded-work600-rb=medium__r0
+   gen_rate_achieved=2000.0  loss_pct=16.7017  kernel_dropped=20042  first_loss_s=3.545  lat_p95_ms=773.8225  tok_per_s=2.948  mon_cpu_pct=87.585  swap_out_pages=0
+[6/48] 02:27:02 loss-7b-starved-nice=llm_favored-rb=large__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=39.6245  tok_per_s=3.197  mon_cpu_pct=70.159  swap_out_pages=0
+[7/48] 02:28:19 loss-7b-overloaded-work600-rb=small__r0
+   gen_rate_achieved=2000.0  loss_pct=17.7992  kernel_dropped=21362  first_loss_s=0.434  lat_p95_ms=98.9897  tok_per_s=2.864  mon_cpu_pct=86.439  swap_out_pages=0
+[8/48] 02:29:36 loss-7b-starved-nice=llm_favored-rb=small__r0
+   gen_rate_achieved=2000.0  loss_pct=0.0942  kernel_dropped=113  first_loss_s=1.692  lat_p95_ms=41.3502  tok_per_s=3.114  mon_cpu_pct=70.103  swap_out_pages=0
+[9/48] 02:30:55 loss-7b-starved-nice=llm_favored-rb=large__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=39.7849  tok_per_s=3.114  mon_cpu_pct=70.156  swap_out_pages=0
+[10/48] 02:32:12 loss-7b-overloaded-work600-rb=large__r4
+   gen_rate_achieved=2000.0  loss_pct=9.6683  kernel_dropped=11602  first_loss_s=27.886  lat_p95_ms=6167.149  tok_per_s=2.831  mon_cpu_pct=93.438  swap_out_pages=0
+[11/48] 02:33:32 loss-7b-overloaded-work600-rb=large__r5
+   gen_rate_achieved=2000.0  loss_pct=9.585  kernel_dropped=11502  first_loss_s=27.941  lat_p95_ms=6150.6487  tok_per_s=2.798  mon_cpu_pct=93.541  swap_out_pages=0
+[12/48] 02:34:50 loss-7b-overloaded-work600-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=16.9858  kernel_dropped=20383  first_loss_s=3.47  lat_p95_ms=779.4515  tok_per_s=2.798  mon_cpu_pct=87.213  swap_out_pages=0
+[13/48] 02:36:08 loss-7b-overloaded-work600-rb=large__r2
+   gen_rate_achieved=2000.0  loss_pct=9.6275  kernel_dropped=11553  first_loss_s=27.821  lat_p95_ms=6154.9855  tok_per_s=2.798  mon_cpu_pct=93.492  swap_out_pages=0
+[14/48] 02:37:27 loss-7b-starved-nice=llm_favored-rb=small__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0275  kernel_dropped=33  first_loss_s=5.38  lat_p95_ms=39.3712  tok_per_s=3.064  mon_cpu_pct=70.147  swap_out_pages=0
+[15/48] 02:38:44 loss-7b-overloaded-work600-pin=reserved__r1
+   gen_rate_achieved=2000.0  loss_pct=15.68  kernel_dropped=18816  first_loss_s=3.755  lat_p95_ms=755.9988  tok_per_s=3.747  mon_cpu_pct=88.554  swap_out_pages=0
+[16/48] 02:40:05 loss-7b-starved-nice=llm_favored-pin=reserved__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=0.3319  tok_per_s=3.78  mon_cpu_pct=71.683  swap_out_pages=0
+[17/48] 02:41:23 loss-7b-overloaded-work600-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=16.9375  kernel_dropped=20325  first_loss_s=3.567  lat_p95_ms=777.6078  tok_per_s=2.831  mon_cpu_pct=87.33  swap_out_pages=0
+[18/48] 02:42:41 loss-7b-overloaded-work600-rb=small__r4
+   gen_rate_achieved=2000.0  loss_pct=17.7225  kernel_dropped=21267  first_loss_s=0.436  lat_p95_ms=99.1563  tok_per_s=2.831  mon_cpu_pct=86.432  swap_out_pages=0
+[19/48] 02:43:59 loss-7b-starved-nice=llm_favored-pin=reserved__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=0.3782  tok_per_s=3.847  mon_cpu_pct=71.45  swap_out_pages=0
+[20/48] 02:45:18 loss-7b-overloaded-work600-rb=small__r5
+   gen_rate_achieved=2000.0  loss_pct=17.8275  kernel_dropped=21393  first_loss_s=0.432  lat_p95_ms=98.9888  tok_per_s=2.864  mon_cpu_pct=86.382  swap_out_pages=0
+[21/48] 02:46:35 loss-7b-starved-nice=llm_favored-rb=medium__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=43.2939  tok_per_s=3.114  mon_cpu_pct=70.155  swap_out_pages=0
+[22/48] 02:47:53 loss-7b-starved-nice=llm_favored-rb=large__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=40.0405  tok_per_s=3.13  mon_cpu_pct=70.162  swap_out_pages=0
+[23/48] 02:49:11 loss-7b-overloaded-work600-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=16.8542  kernel_dropped=20225  first_loss_s=3.544  lat_p95_ms=775.4977  tok_per_s=2.814  mon_cpu_pct=87.409  swap_out_pages=0
+[24/48] 02:50:29 loss-7b-overloaded-work600-pin=reserved__r4
+   gen_rate_achieved=2000.0  loss_pct=15.6767  kernel_dropped=18812  first_loss_s=3.76  lat_p95_ms=755.9786  tok_per_s=3.846  mon_cpu_pct=88.56  swap_out_pages=0
+[25/48] 02:51:49 loss-7b-starved-nice=llm_favored-rb=large__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=38.4758  tok_per_s=3.114  mon_cpu_pct=70.173  swap_out_pages=0
+[26/48] 02:53:06 loss-7b-starved-nice=llm_favored-rb=small__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0517  kernel_dropped=62  first_loss_s=14.383  lat_p95_ms=40.5079  tok_per_s=3.03  mon_cpu_pct=70.117  swap_out_pages=0
+[27/48] 02:54:24 loss-7b-starved-nice=llm_favored-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=44.4561  tok_per_s=3.014  mon_cpu_pct=70.148  swap_out_pages=0
+[28/48] 02:55:43 loss-7b-overloaded-work600-pin=reserved__r2
+   gen_rate_achieved=2000.0  loss_pct=15.6783  kernel_dropped=18814  first_loss_s=3.76  lat_p95_ms=756.0019  tok_per_s=3.697  mon_cpu_pct=88.535  swap_out_pages=0
+[29/48] 02:57:02 loss-7b-starved-nice=llm_favored-rb=small__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0133  kernel_dropped=16  first_loss_s=38.207  lat_p95_ms=36.0838  tok_per_s=3.014  mon_cpu_pct=70.153  swap_out_pages=0
+[30/48] 02:58:19 loss-7b-overloaded-work600-pin=reserved__r3
+   gen_rate_achieved=2000.0  loss_pct=15.6808  kernel_dropped=18817  first_loss_s=3.759  lat_p95_ms=756.001  tok_per_s=3.647  mon_cpu_pct=88.703  swap_out_pages=0
+[31/48] 02:59:40 loss-7b-starved-nice=llm_favored-pin=reserved__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=0.294  tok_per_s=3.697  mon_cpu_pct=70.753  swap_out_pages=0
+[32/48] 03:00:59 loss-7b-starved-nice=llm_favored-rb=large__r1
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=43.6535  tok_per_s=2.98  mon_cpu_pct=70.157  swap_out_pages=0
+[33/48] 03:02:17 loss-7b-overloaded-work600-rb=large__r1
+   gen_rate_achieved=2000.0  loss_pct=9.5475  kernel_dropped=11457  first_loss_s=28.073  lat_p95_ms=6162.8755  tok_per_s=2.748  mon_cpu_pct=93.556  swap_out_pages=0
+[34/48] 03:03:36 loss-7b-overloaded-work600-rb=large__r3
+   gen_rate_achieved=2000.0  loss_pct=9.645  kernel_dropped=11574  first_loss_s=28.022  lat_p95_ms=6168.517  tok_per_s=2.781  mon_cpu_pct=93.399  swap_out_pages=0
+[35/48] 03:04:55 loss-7b-starved-nice=llm_favored-pin=reserved__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=0.3837  tok_per_s=3.763  mon_cpu_pct=71.293  swap_out_pages=0
+[36/48] 03:06:14 loss-7b-starved-nice=llm_favored-rb=medium__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=45.7852  tok_per_s=3.064  mon_cpu_pct=70.151  swap_out_pages=0
+[37/48] 03:07:32 loss-7b-overloaded-work600-rb=small__r1
+   gen_rate_achieved=2000.0  loss_pct=17.8692  kernel_dropped=21443  first_loss_s=0.435  lat_p95_ms=99.0732  tok_per_s=2.764  mon_cpu_pct=86.336  swap_out_pages=0
+[38/48] 03:08:50 loss-7b-starved-nice=llm_favored-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=41.0456  tok_per_s=3.064  mon_cpu_pct=70.152  swap_out_pages=0
+[39/48] 03:10:07 loss-7b-starved-nice=llm_favored-rb=medium__r2
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=47.2415  tok_per_s=3.047  mon_cpu_pct=70.133  swap_out_pages=0
+[40/48] 03:11:26 loss-7b-overloaded-work600-rb=medium__r5
+   gen_rate_achieved=2000.0  loss_pct=16.8692  kernel_dropped=20243  first_loss_s=3.529  lat_p95_ms=775.5511  tok_per_s=2.798  mon_cpu_pct=87.328  swap_out_pages=0
+[41/48] 03:12:44 loss-7b-overloaded-work600-rb=medium__r4
+   gen_rate_achieved=2000.0  loss_pct=16.8017  kernel_dropped=20162  first_loss_s=3.511  lat_p95_ms=776.871  tok_per_s=2.798  mon_cpu_pct=87.374  swap_out_pages=0
+[42/48] 03:14:01 loss-7b-starved-nice=llm_favored-pin=reserved__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=0.3936  tok_per_s=3.78  mon_cpu_pct=71.167  swap_out_pages=0
+[43/48] 03:15:21 loss-7b-overloaded-work600-rb=small__r2
+   gen_rate_achieved=2000.0  loss_pct=17.9783  kernel_dropped=21574  first_loss_s=0.415  lat_p95_ms=99.3622  tok_per_s=2.798  mon_cpu_pct=86.211  swap_out_pages=0
+[44/48] 03:16:38 loss-7b-overloaded-work600-rb=small__r3
+   gen_rate_achieved=2000.0  loss_pct=17.8492  kernel_dropped=21419  first_loss_s=0.422  lat_p95_ms=99.1457  tok_per_s=2.798  mon_cpu_pct=86.373  swap_out_pages=0
+[45/48] 03:17:57 loss-7b-starved-nice=llm_favored-rb=large__r3
+   gen_rate_achieved=2000.0  loss_pct=0.0  kernel_dropped=0  first_loss_s=  lat_p95_ms=41.1466  tok_per_s=3.064  mon_cpu_pct=70.187  swap_out_pages=0
+[46/48] 03:19:15 loss-7b-starved-nice=llm_favored-rb=small__r1
+   gen_rate_achieved=2000.0  loss_pct=0.095  kernel_dropped=114  first_loss_s=6.241  lat_p95_ms=46.1324  tok_per_s=2.964  mon_cpu_pct=70.07  swap_out_pages=0
+[47/48] 03:20:33 loss-7b-overloaded-work600-pin=reserved__r5
+   gen_rate_achieved=2000.0  loss_pct=15.6792  kernel_dropped=18815  first_loss_s=3.76  lat_p95_ms=756.0104  tok_per_s=3.563  mon_cpu_pct=88.696  swap_out_pages=0
+[48/48] 03:21:53 loss-7b-starved-nice=llm_favored-rb=small__r2
+   gen_rate_achieved=2000.0  loss_pct=0.035  kernel_dropped=42  first_loss_s=2.027  lat_p95_ms=45.02  tok_per_s=2.947  mon_cpu_pct=70.101  swap_out_pages=0
+done. results in results_loss/runs.csv
